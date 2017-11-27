@@ -44,7 +44,7 @@ public class basicTitleTest {
 	}
 	
 	@Test
-	public void testSelenium() throws IOException
+	public void testSelenium()
 	{
 		DesiredCapabilities capability = DesiredCapabilities.firefox();
 		capability.setCapability(CapabilityType.TAKES_SCREENSHOT, true);
