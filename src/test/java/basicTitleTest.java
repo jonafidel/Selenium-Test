@@ -46,9 +46,9 @@ public class basicTitleTest {
 	@Test
 	public void testSelenium() throws IOException
 	{
-		DesiredCapabilities capability = DesiredCapabilities.firefox();
+		DesiredCapabilities capability = DesiredCapabilities.chrome();
 		capability.setCapability(CapabilityType.TAKES_SCREENSHOT, true);
-		capability.setBrowserName("firefox");
+		capability.setBrowserName("chrome");
 		//capabilities.setPlatform(Platform.Linux);
 
         WebDriver driver = new RemoteWebDriver(new URL(nodeURL), capability);
